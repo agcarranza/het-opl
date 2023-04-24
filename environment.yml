@@ -1,0 +1,16 @@
+name: het-opl
+channels:
+  - conda-forge
+dependencies:
+  # Python
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pytest
+  - scikit-learn
+  - seaborn
+  - vowpalwabbit
+  - pip:
+    - flwr[simulation]
