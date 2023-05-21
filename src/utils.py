@@ -82,7 +82,7 @@ def compute_AIPW_scores(X, A, Y,
 
     return AIPW_scores
 
-def compute_regret(X, model, opt_costs, opt_model=None, idx_to_weight_mapping=None):
+def compute_regret(X, opt_costs, model, opt_model=None, idx_to_weight_mapping=None):
     """Compute regret metrics against (true or model) optimal outcome."""
     y_pred = model.predict(X)
     if opt_model:
